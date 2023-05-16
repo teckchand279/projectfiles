@@ -1,0 +1,131 @@
+online project mngt
+
+Introduction:
+The purpose of this document is to outline the requirements for the development of a Project Management System, which will facilitate efficient project planning, tracking, collaboration, and reporting.
+Provide an overview of the online project management system.
+Explain the purpose of the SRS document and its intended audience.
+
+Business Objectives:
+Describe the goals and objectives of the online project management system.
+Outline the business strategies and value proposition.
+
+Scope:
+The system will provide features for creating and managing projects, assigning tasks, tracking progress, managing resources, generating reports, and facilitating team communication.
+
+Specify the scope of the online project management system.
+Define the boundaries and limitations of the system.
+Identify the target users (project managers, team members, stakeholders, etc.) and their roles.
+
+Stakeholders:
+List and describe the stakeholders involved in the online project management system, such as project managers, team members, clients, executives, etc.
+Functional Requirements:
+
+Identify and describe the functional requirements of the system, such as:
+User registration and authentication
+Project creation and management
+Task and milestone management
+Document and file sharing
+Collaboration and communication features (discussions, notifications, etc.)
+Time tracking and resource management
+Reporting and analytics
+Integration with third-party tools (if applicable)
+
+
+Functional Requirements for the Online Project Management System:
+
+User registration and authentication:
+Users should be able to create accounts and register with the system.
+Authentication mechanisms such as username/password or social media login should be provided for secure access.
+User roles and permissions should be defined to control system access and privileges.
+
+Project creation and management:
+Users with appropriate permissions should be able to create new projects.
+Projects should have attributes like a unique identifier, title, description, start and end dates, and associated team members.
+Project details should be editable, and projects may be marked as active, on hold, or completed.
+
+Task and milestone management:
+Users should be able to create tasks and assign them to team members within a project.
+Tasks should have attributes such as a unique identifier, title, description, due date, priority, and status (e.g., not started, in progress, completed).
+Milestones should be set to track major achievements or deliverables within a project.
+
+Document and file sharing:
+Users should be able to upload and share project-related documents and files.
+Version control should be implemented to manage document revisions.
+Access control settings should be available to specify who can view, edit, or download files.
+
+Collaboration and communication features:
+Users should be able to engage in discussions or forums related to a project or specific tasks.
+Real-time notifications or email alerts should be sent to relevant users for task assignments, updates, or important project-related events.
+
+Time tracking and resource management:
+Users should be able to log time spent on tasks or projects.
+Resource allocation and scheduling features should be available to assign team members to tasks and track their availability.
+
+Reporting and analytics:
+The system should provide reporting capabilities, generating project progress reports, task status reports, and resource utilization reports.
+Analytics features may include visualizations and metrics related to project timelines, task completion rates, and resource allocation.
+
+Integration with third-party tools (if applicable):
+The system should allow integration with external tools such as calendar applications, project management software, or document management systems.
+APIs or plugins should be available for data exchange or synchronization with external systems.
+
+
+Non-Functional Requirements:
+
+
+Performance and scalability
+Security and access control
+Usability and user experience
+Reliability and availability
+Compatibility with different devices and browsers
+Data backup and recovery
+Compliance with relevant regulations (if applicable)
+System Interfaces:
+
+Identify and describe the external interfaces the system interacts with, such as:
+Integration with popular project management tools (e.g., Jira, Trello)
+Email and notification systems
+Document management systems (e.g., Google Drive, SharePoint)
+APIs for third-party integrations (if applicable)
+
+Constraints:
+Highlight any constraints or limitations that may impact the system's design or implementation, such as budgetary constraints, technology limitations, or regulatory requirements.
+Assumptions and Dependencies:
+
+Specify any assumptions made during the requirements gathering process.
+Identify any dependencies on external systems, resources, or third-party services.
+Glossary:
+
+Define the key terms and concepts used throughout the SRS document.
+
+Entities:
+
+User: Represents a user of the project management system. It includes attributes such as User ID, Name, Email, and Role.
+
+Project: Represents a project being managed in the system. It includes attributes like Project ID, Name, Description, Start Date, and End Date.
+
+Task: Represents a task within a project. It includes attributes such as Task ID, Name, Description, Start Date, End Date, and Status.
+
+Team: Represents a team involved in a project. It includes attributes like Team ID, Name, and Description.
+
+Document: Represents project-related documents. It includes attributes like Document ID, Name, Description, and File Path.
+
+Comment: Represents comments made by users on tasks or project-related discussions. It includes attributes such as Comment ID, Content, and Date.
+
+Relationships:
+
+Users can participate in multiple Projects (many-to-many relationship). Each Project involves multiple Users.
+
+Each Project consists of multiple Tasks (one-to-many relationship). Each Task belongs to a single Project.
+
+Users can be assigned to multiple Tasks (many-to-many relationship). Each Task can have multiple Users assigned.
+
+Projects can have multiple Teams (one-to-many relationship). Each Team belongs to a single Project.
+
+Each Task can have multiple Documents associated (one-to-many relationship). Each Document belongs to a single Task.
+
+Users can post multiple Comments (one-to-many relationship). Each Comment belongs to a single User.
+
+Tasks can have multiple Comments (one-to-many relationship). Each Comment belongs to a single Task.
+
+

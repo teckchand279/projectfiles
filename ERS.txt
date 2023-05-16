@@ -1,0 +1,74 @@
+employee recruitment system:
+
+Introduction:
+The purpose of this document is to define the requirements for the development of an Employee Recruitment System, which will streamline and automate the recruitment process within an organization.
+Provide an overview of the employee recruitment system.
+Explain the purpose of the SRS document and its intended audience.
+
+Business Objectives:
+Describe the goals and objectives of the employee recruitment system.
+Outline the business strategies and value proposition.
+
+Scope:
+The system will encompass features such as job posting, applicant tracking, resume management, interview scheduling, candidate evaluation, and reporting.
+Specify the scope of the employee recruitment system.
+Define the boundaries and limitations of the system.
+Identify the target users (recruiters, hiring managers, candidates, administrators, etc.) and their roles.
+
+Stakeholders:
+List and describe the stakeholders involved in the employee recruitment system, such as recruiters, HR personnel, hiring managers, candidates, executives, etc.
+
+Functional Requirements:
+Job posting and management
+Candidate application and resume submission
+Application screening and shortlisting
+Interview scheduling and management
+Skill and competency assessment
+Background checks and verification
+Offer generation and acceptance
+Onboarding process management
+Reporting and analytics
+Integration with HRIS or other systems (if applicable)
+
+
+Non-Functional Requirements:
+
+Specify the non-functional requirements, including:
+Performance and scalability
+Security and access control (confidentiality, integrity, and availability)
+Usability and user experience
+Reliability and availability
+Compatibility with different devices and browsers
+Data backup and recovery
+Compliance with relevant regulations (e.g., GDPR, EEOC)
+System Interfaces:
+
+Identify and describe the external interfaces the system interacts with, such as:
+Integration with job boards or career websites
+Integration with HRIS or other HR systems
+Email and notification systems
+Background check services (if applicable)
+APIs for third-party integrations (if applicable)
+Constraints:
+
+Highlight any constraints or limitations that may impact the system's design or implementation, such as budgetary constraints, technology limitations, or regulatory requirements.
+Assumptions and Dependencies:
+
+Specify any assumptions made during the requirements gathering process.
+Identify any dependencies on external systems, resources, or third-party services.
+Glossary:
+
+
+
+Entities:
+Job Posting: Represents a job vacancy or position within the organization. It contains attributes such as Job ID, Title, Description, Skills Required, and Salary Range.
+
+Candidate: Represents a potential applicant for a job. It includes attributes like Candidate ID, Name, Contact Details, Experience, Education, and Resume.
+
+Application: Connects the Candidate entity to the Job Posting entity. It represents a candidate's application for a specific job and includes attributes such as Application ID, Application Date, Status, and any additional application-specific information.
+
+Interview: Represents an interview conducted during the recruitment process. It has attributes like Interview ID, Interview Date, Interviewer(s), and Feedback.
+
+Offer: Represents a job offer made to a candidate. It contains attributes such as Offer ID, Offer Date, Offered Salary, and Offer Expiry Date.
+
+User/Recruiter: Represents a user or recruiter involved in the recruitment system. It includes attributes like User ID, Name, Username, Password, and Contact Details.

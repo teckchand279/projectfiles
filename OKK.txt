@@ -1,0 +1,82 @@
+online Krushi Kendra (Agricultural Center):
+
+Introduction:
+
+Provide an overview of the online Krushi Kendra system.
+Explain the purpose of the SRS document and its intended audience.
+Business Objectives:
+
+Describe the goals and objectives of the online Krushi Kendra.
+Outline the business strategies and value proposition.
+
+Scope: The website will serve as a platform connecting farmers, agricultural suppliers, and buyers, facilitating the buying and selling of agricultural products and services.
+
+Specify the scope of the online Krushi Kendra system.
+Define the boundaries and limitations of the system.
+Identify the target users (farmers, agricultural experts, administrators, etc.) and their roles.
+
+Stakeholders:
+
+List and describe the stakeholders involved in the online Krushi Kendra system, such as farmers, agricultural experts, government officials, administrators, etc.
+Functional Requirements:
+
+functional requirements of the system, such as:
+Farmer registration and authentication
+Crop selection and recommendation
+Soil testing and analysis
+Pest and disease management
+Weather information and forecasting
+Market prices and trends
+Access to agricultural resources (e.g., seeds, fertilizers, equipment)
+Expert consultation and advice
+Farmer community and discussion forums
+Training and education materials
+Reporting and analytics
+Integration with government databases or services (if applicable)
+
+
+Non-Functional Requirements:
+Specify the non-functional requirements, including:
+Performance and scalability
+Security and access control
+Usability and user experience
+Reliability and availability
+Compatibility with different devices and browsers
+Data backup and recovery
+Compliance with relevant regulations (if applicable)
+
+
+
+
+Entities:
+Farmer: Represents a farmer registered in the system. It includes attributes such as Farmer ID, Name, Contact Details, Address, and Farm Size.
+
+Crop: Represents different types of crops that farmers can grow. It includes attributes like Crop ID, Name, Description, and Recommended Soil Type.
+
+Soil: Represents soil information for different areas or regions. It includes attributes such as Soil ID, Type, pH Level, Nutrient Composition, and Moisture Retention.
+
+Pest: Represents pests and diseases that can affect crops. It includes attributes like Pest ID, Name, Description, and Recommended Control Measures.
+
+Weather: Represents weather conditions and forecasts for specific locations. It includes attributes like Location, Temperature, Humidity, Rainfall, and Forecast Date.
+
+Market Price: Represents market prices for different crops. It includes attributes such as Crop ID, Price, Market Location, and Date.
+
+Agricultural Resource: Represents various agricultural resources needed by farmers, such as seeds, fertilizers, equipment, etc. It includes attributes like Resource ID, Type, Description, and Availability.
+
+Expert: Represents agricultural experts or consultants who provide advice and assistance to farmers. It includes attributes like Expert ID, Name, Expertise Area, and Contact Details.
+
+
+Relationships:
+A Farmer can grow multiple Crops (many-to-many relationship). Each Crop can be grown by multiple Farmers.
+
+Each Crop requires a specific type of Soil (one-to-one relationship). Each Soil can be associated with multiple Crops.
+
+Crops can be affected by multiple Pests and Diseases (many-to-many relationship). Each Pest can affect multiple Crops, and each Crop can be affected by multiple Pests.
+
+Weather conditions are associated with specific Locations (one-to-many relationship). Each Location can have multiple Weather entries.
+
+Market Price is linked to a specific Crop (one-to-many relationship). Each Crop can have multiple Market Price entries.
+
+Agricultural Resources are available for multiple Crop types (one-to-many relationship). Each Crop can be associated with multiple Agricultural Resources.
+
+Experts provide consultation to multiple Farmers (one-to-many relationship). Each Farmer can seek advice from multiple Experts.

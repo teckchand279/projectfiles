@@ -1,0 +1,32 @@
+create new repo
+
+create new folder -> path cmd ->git clone <repo path paste>
+
+cmd:
+git status
+git add .
+git status
+git commit -m "messege"
+git push
+
+login aws:
+create instance -> copy instance 
+
+open putty
+ubuntu
+sudo apt update
+sudo apt install docker.io
+
+git clone <repo path paste>
+ls
+cd filename/
+ls
+cd filename/
+ls
+sudo docker build -t (temp name) .
+sudo docker images
+sudo docker run -d -p 7667:7667 (temp name)
+sudo docker ps
+
+open chrome
+paste ipv4 of instance:portno

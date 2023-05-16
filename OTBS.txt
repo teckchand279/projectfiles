@@ -1,0 +1,58 @@
+Online Ticket Booking Ticket
+
+Introduction:
+Purpose: The purpose of this document is to define the requirements for the development of an Online Ticket Booking System, which will allow users to browse, select, and book tickets for various events or modes of transportation.
+
+Scope: The system will include features such as event listing, ticket availability, seat selection (if applicable), secure payment processing, booking confirmation, and ticket management.
+
+
+Functional requirements
+
+Registration   :  If customer wants to book some seats, then he/she must be registered, unregistered user can’t book the seats. 
+Login : Customer logins to the system by entering valid email id and password for the seats to be booked.
+Search : The user can search their required shows and check for available seats at different theatres.
+Select : User is allowed to select required number of seats at liked places.
+Payment : Payment is done through net banking or debit/credit cards or through UPI. The seats will be booked and blocked only after a successful payment.
+Receipt Generation : A unique transaction id is generated for future references.
+Ticket Generation : A ticket is produced with seat numbers, time and place of show on it and also a QR code. Error handling : If any of the above validation/sequencing flow does not hold true, appropriate error messages will be prompted to the user for doing the needful.
+
+
+Functional Requirements:
+
+
+User registration and authentication
+Bus search and selection
+Seat selection and booking
+Ticket cancellation and modification
+Payment processing and integration with payment gateways
+Booking confirmation and e-ticket generation
+User profile management
+Reporting and analytics
+Integration with other systems (if applicable)
+
+
+Non-Functional Requirements:
+
+Specify the non-functional requirements, including:
+Performance and scalability
+Security and data privacy
+Usability and user experience
+Reliability and availability
+Compatibility with different devices and browsers
+System maintenance and support
+Compliance with relevant regulations (e.g., GDPR, PCI-DSS)
+
+Entities:
+
+User: Represents a user of the ticket booking system. It includes attributes such as User ID, Name, Email, and Password.
+Event: Represents an event or performance for which tickets are being booked. It includes attributes like Event ID, Name, Date, Time, Venue, and Ticket Price.
+Ticket: Represents a ticket for a specific event. It includes attributes such as Ticket ID, Event ID, Seat Number, and Status (e.g., booked, available, canceled).
+Payment: Represents a payment made for a ticket. It includes attributes like Payment ID, Ticket ID, Payment Amount, Payment Date, and Payment Status.
+
+
+Relationships:
+
+Users can book multiple Tickets (one-to-many relationship). Each Ticket is booked by a single User.
+Each Event can have multiple Tickets available (one-to-many relationship). Each Ticket belongs to a single Event.
+
+Tickets can have multiple Payments (one-to-many relationship). Each Payment is associated with a single Ticket.
