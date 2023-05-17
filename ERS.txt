@@ -41,6 +41,39 @@ Reliability and availability
 Compatibility with different devices and browsers
 Data backup and recovery
 Compliance with relevant regulations (e.g., GDPR, EEOC)
+
+1. Security:
+		Any anonymus user will not be able to view or access data of the EMS.
+		Registered Employees will be able to access profiles of other employees in the organization however they can only update or edit their Personal details.
+		Registered Employees and Managers of a project will be able to monitor the progress of that project. 
+		System will block the anonymus user as we use the firewall in the server to protect the application from cyber attacks.
+		Sensitive data will be always encrypted across communication.
+
+2. Reliable:
+		The system will have backup of the employee data on regular basis and recover this data in short 
+		time duration to keep the system operational.
+		During peak hours system will maintain same user experience by managing and load balancing.
+
+
+3. Avaliblity:
+		uptime:  24 * 7 available
+
+4. Portability:
+		User will be able to access EMS portal on various devices at the same time.
+		System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP).
+
+5. Maintainablity:
+		A Commercial database software will be used to maintain System data Persistence.
+		A readymade Web Server will be installed to host online Web Site with server management capabilities.
+		IT operations team will easily monitor and configure System using Administrative tools provided by Servers.
+		Separate enviornment will be maintained for system isolation in  production, testing, and development.
+
+6. Efficiency: 
+		On festival season, maximum number of leaves will be placed. The system will be able to efficiently 
+		handle all the requests and present them to respective managers for approvals.
+
+
+		
 System Interfaces:
 
 Identify and describe the external interfaces the system interacts with, such as:
